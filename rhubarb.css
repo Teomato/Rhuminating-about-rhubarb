@@ -1,0 +1,126 @@
+h1 {
+    color: #FF8C00;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+h2 {
+    color: #A3297A;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1em;
+    font-style: italic;
+    color: #3333CC;
+    text-align: center;
+}
+
+p {
+    text-indent: 2em;
+}
+
+.allcaps {
+    letter-spacing: .5em;
+    font-style: italic;    
+    text-transform: uppercase;
+}
+
+article ul {
+    background-color: #FFF0FA;    
+    line-height: 2em;
+    list-style-type: square;
+    border: 5px dotted #3333CC;
+}
+
+ol {
+    line-height: 1.5em;
+    list-style-type: lower-alpha;
+}
+
+header {
+    text-align: center;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    padding: .5em;
+
+}
+
+section {
+    float: left;
+    padding: 2em;
+    max-width: 45%;
+}
+
+td {
+    text-align: center;
+    font-size: 2em;
+    width: 2.5em;
+    height: 2.5em;
+    padding: 1em;
+    border: 3px solid #A3297A;
+}
+
+th {
+    text-align: center;
+    font-size: 1em;
+    padding: 1em;
+    width: 2em;
+    height: 2em;
+}
+
+#top {
+    background-image: url("/media/html_images/ceiling.jpg");
+    background-repeat: repeat-x;
+    color: white;
+    word-spacing: .5em;    
+    border-radius: 50px;
+    border: 5px groove black;
+}
+
+aside {
+    font-style: italic;
+    color: white;
+    background-color: #3333CC;
+    max-width: 40%;
+    padding: 1em;
+    border: 3px solid #A3297A;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+ 
+nav a:hover {
+    background-color: #FFF0FA;    
+    color: black;
+}
+
+
+.toleft {
+    float: left;
+}
+
+.toright {
+    float: right;
+}
+
+footer {
+    font-size: .8em;
+    background-color: #A3297A;
+    color: white;
+    padding: .5em;
+    clear: both;
+}
